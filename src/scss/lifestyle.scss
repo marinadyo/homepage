@@ -1,0 +1,23 @@
+.lifestyle {
+  background-color: floralwhite;
+  background-image: url("/img/main2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.lifestyle:before {
+  content:"";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.54);
+  z-index: 0;
+}
+
+.lifestyle-container {
+  position: relative;
+  z-index: 1;
+}
